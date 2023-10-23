@@ -18,7 +18,7 @@ int _y(unsigned int nm, int c, int upper)
 
 		if (rem < 10)
 		{
-			hex[a] = 48 + rem;
+			hexa[a] = 48 + rem;
 		}
 		else
 		{

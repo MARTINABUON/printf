@@ -29,7 +29,7 @@ int printf_bin(unsigned int nm, int c)
 	while (j > 0)
 	{
 		j--;
-		_myputchar('0' + bin[i]);
+		_myputchar('0' + bin[j]);
 		c++;
 	}
 
